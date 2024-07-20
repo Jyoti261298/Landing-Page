@@ -1,0 +1,28 @@
+import React from 'react';
+import './GlobalNetwork.css';
+
+const GlobalNetwork = () => {
+  return (
+    <div className="global-network">
+      <div className="world-map"></div>
+      <div className="connection-line"></div>
+      {[...Array(10)].map((_, index) => (
+        <div key={index} className={`avatar avatar-${index + 1}`}>
+          <img src={`avatar${index + 1}.jpg`} alt={`Avatar ${index + 1}`} />
+        </div>
+      ))}
+      {[...Array(4)].map((_, index) => (
+        <div key={index} className={`emoji emoji-${index + 1}`}>
+        {['😍', '❤️', '🚀', '🔥'][index]}
+      </div>
+    ))}
+  
+  <div>
+
+  </div>
+  </div>
+
+);
+};
+
+export default GlobalNetwork;
