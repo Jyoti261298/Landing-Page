@@ -86,9 +86,11 @@ const Hero = () => {
           </div>
           <div className="deploy">
             <lable>Deploy</lable>
+            
             <FontAwesomeIcon
               icon={faCircleArrowRight}
-              margin-top="2px"
+              margin-left="10px"
+              margin-top="2px"              
               size="2"
               style={{ color: "#0C091B" }}
             />
