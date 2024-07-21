@@ -1,17 +1,16 @@
 import React from "react";
-import Hero from './Component/Hero';
-import Footer from './Component/Footer';
-
-
+import Home from "./Component/Home";
+import Hero from "./Component/Hero";
+import Footer from "./Component/Footer";
 
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-    <Hero/>
-     <Footer/>
-    
+      <Home />
+      <Hero />
+      <Footer />
     </div>
   );
 }
