@@ -1,3 +1,5 @@
+Landing Page of the Website FanTV designed by using ReactJS, Html, Css
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
